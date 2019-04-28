@@ -68,3 +68,23 @@ img {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+iframe {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        margin-left: 0%;
+        max-width: 10px;
+        width: 10px;
+    }
+
+    body {
+        font-size: 10px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
