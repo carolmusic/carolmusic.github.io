@@ -1,9 +1,9 @@
 body {
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Tajawal:400', sans-serif;
     font-size: 13px;
     line-height: 1.5;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
     padding-left: 2rem;
     padding-right: 0;
 }
@@ -26,8 +26,8 @@ a:hover {
 .main {
     min-width: 50ch;
     max-width: 80ch;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    /* padding-top: 4rem; */
+    /* padding-bottom: 4rem; */
     justify-self: center;
     margin-left: 25%;
 
@@ -48,14 +48,6 @@ img {
     display: block;
 }
 
-
-.cred {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding-right: 10px;
-}
-
 .downloadLink {
     padding-top: 100px;
 }
@@ -67,4 +59,47 @@ img {
 #quotes {
     padding-top: 40px;
     padding-bottom: 40px;
+    width: 400px;
+}
+
+.bg-image {
+    float: right;
+    position: absolute;
+    z-index: -1;
+    margin-left: 50%;
+    width: 600px;
+    margin-top: 130px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: #d1d1d1;
+}
+
+.quote-text {
+    padding-bottom: 20px;
+}
+
+/* 
+.album-art {
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: absolute;
+} */
+
+.album-text {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+
+}
+
+.about-text {
+    width: 560px;
 }
