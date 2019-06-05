@@ -1,36 +1,33 @@
 body {
-    font-family: 'Tajawal:400', sans-serif;
-    font-size: 13px;
-    line-height: 1.5;
-    padding-top: 2rem;
-    padding-bottom: 0rem;
-    padding-left: 2rem;
-    padding-right: 0;
+  font-family: "Tajawal:400", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  padding-left: 2rem;
+  padding-right: 0;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-    color: #ba88d7;
-
+  color: #ba88d7;
 }
 
 .title {
-    font-family: 'Tajawal:900', sans-serif;
-
+  font-family: "Tajawal:900", sans-serif;
 }
 
 .main {
-    min-width: 50ch;
-    max-width: 80ch;
-    /* padding-top: 4rem; */
-    /* padding-bottom: 4rem; */
-    justify-self: center;
-    margin-left: 25%;
-
+  min-width: 50ch;
+  max-width: 80ch;
+  /* padding-top: 4rem; */
+  /* padding-bottom: 4rem; */
+  justify-self: center;
+  margin-left: 25%;
 }
 
 /* .contactLink {
@@ -38,51 +35,55 @@ a:hover {
 } */
 
 img {
-    width: 500px;
-    height: auto;
+  width: 500px;
+  height: auto;
 }
 
 #images img {
-    padding: 0;
-    margin: 0;
-    display: block;
+  padding: 0;
+  margin: 0;
+  display: block;
 }
 
 .downloadLink {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .quoteLink {
-    font-family: 'Tajawal:900', sans-serif;
+  font-family: "Tajawal:900", sans-serif;
 }
 
 #quotes {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    width: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 400px;
 }
 
 .bg-image {
-    float: right;
-    position: absolute;
-    z-index: -1;
-    margin-left: 50%;
-    width: 600px;
-    margin-top: 130px;
+  float: right;
+  position: absolute;
+  z-index: -1;
+  margin-left: 50%;
+  width: 600px;
+  margin-top: 130px;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
-    background: #d1d1d1;
+  background: #d1d1d1;
 }
 
 .quote-text {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.publication {
+  font-weight: 800;
 }
 
 /* 
@@ -94,12 +95,11 @@ body {
 } */
 
 .album-text {
-    font-family: 'Tajawal', sans-serif;
-    font-weight: 800;
-    font-size: 14px;
-
+  font-family: "Tajawal", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
 }
 
 .about-text {
-    width: 560px;
+  width: 560px;
 }
